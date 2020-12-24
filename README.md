@@ -11,7 +11,7 @@ Open a terminal, change to the directory where you want to store the ISO file an
 ./dvd2iso.sh <ISO output filename without .iso suffix, e.g., Wedding>
 ```
 
-If you're on a Macbook with an M1 ARM64 processor:
+If you're on a Macbook with an M1 ARM64 processor use the following:
 
 ```
 arch -x86_64 ./dvd2iso.sh <ISO output filename without .iso suffix, e.g., Wedding>
