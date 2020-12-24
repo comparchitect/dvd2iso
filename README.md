@@ -5,12 +5,23 @@ NOTE: this script should only be used to back up DVDs that you own. Do not copy 
 
 # how to back up DVDs using the script
 
-TBA
+Open a terminal, change to the directory where you want to store the ISO file and type in the following:
+
+```
+./dvd2iso.sh <name of your file, e.g., Wedding>
+```
+
+Enter your sudo password if prompted, this will allow the script to unmount the DVD if it's already mounted.
+
+Then sit back and relax until the DVD is ejected from your drive. When it ejects, the conversion is complete and the ISO file is in the directory with the name you provided.
 
 # dependencies
 
 * Linux
-  * TBD
+  * sudo
+  * dvdbackup
+  * cdrtools (provides mkisofs)
+  * libdvdcss
 
 * Mac OS
   * Homebrew
