@@ -19,7 +19,7 @@ arch -x86_64 ./dvd2iso.sh <ISO output filename without .iso suffix>
 
 Enter your sudo password if prompted, this will allow the script to unmount the DVD if it's already mounted.
 
-Then sit back and relax until the DVD is ejected from your drive. When it ejects, the conversion is complete and the ISO file is in the directory with the name you provided.
+Then sit back and relax until the DVD is ejected from your drive. When it ejects, the ISO file is in the directory with the name you provided.
 
 # dependencies
 
