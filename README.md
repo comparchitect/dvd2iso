@@ -31,14 +31,23 @@ The script signals completion by ejecting your DVD from the drive. When the DVD 
 
 * Mac OS
   * Homebrew (instructions at https://brew.sh/)
+    * For x86 Macs
+    ```
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
     * For M1 Macs use the prefix ***arch -x86_64*** to invoke Rosetta2
     ```
     arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
   * Homebrew packages:
+    * For x86 Macs
     
     ```
     brew install dvdbackup cdrtools libdvdcss
+    ```
+    * For M1 Macs
+    ```
+    arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
 Tested to work on a M1 Macbook running Big Sur.
