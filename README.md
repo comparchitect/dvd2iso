@@ -1,5 +1,7 @@
 # dvd2iso
-Script for backing up DVDs to ISO files on a Linux/Mac. Tested to work on a M1 Macbook running Big Sur.
+Script for backing up DVDs to ISO files on a Linux/Mac.
+
+NOTE: this script should only be used to back up DVDs that you own and not to copy DVDs with copyrighted material that you do not own.
 
 # dependencies
 
@@ -12,6 +14,8 @@ Mac OS
 - libdvdcss
 - dvdbackup
 - cdrtools (provides mkisofs)
+
+Tested to work on a M1 Macbook running Big Sur.
 
 # how to back up DVDs using the script
 
