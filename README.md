@@ -8,13 +8,13 @@ NOTE: this script should only be used to back up DVDs that you own. Do not copy 
 Open a terminal, change to the directory where you want to store the ISO file and type in the following:
 
 ```
-./dvd2iso.sh <name of your file, e.g., Wedding>
+./dvd2iso.sh <ISO output filename without .iso suffix, e.g., Wedding>
 ```
 
 If you're on a Macbook with an M1 ARM64 processor:
 
 ```
-arch -x86_64 ./dvd2iso.sh <name of your file, e.g., Wedding>
+arch -x86_64 ./dvd2iso.sh <ISO output filename without .iso suffix>
 ```
 
 Enter your sudo password if prompted, this will allow the script to unmount the DVD if it's already mounted.
