@@ -30,7 +30,11 @@ The script signals completion by ejecting your DVD from the drive. When the DVD 
   * libdvdcss
 
 * Mac OS
-  * Homebrew (instructions at https://brew.sh/); For M1 Macs use the prefix ***arch -x86_64*** to invoke Rosetta2 
+  * Homebrew (instructions at https://brew.sh/)
+    * For M1 Macs use the prefix ***arch -x86_64*** to invoke Rosetta2
+    ```
+    arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
   * Homebrew packages:
     
     ```
