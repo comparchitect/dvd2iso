@@ -1,4 +1,4 @@
-# macdvd2iso
+# dvd2iso
 Script for backing up DVDs to ISO files on a Mac
 
 # how to back up DVDs using the script
