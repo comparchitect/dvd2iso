@@ -1,5 +1,5 @@
 # dvd2iso
-Script for backing up DVDs to ISO files on a Linux/Mac.
+Script for backing up DVDs to ISO files on Linux or Mac.
 
 NOTE: this script should only be used to back up DVDs that you own. Do not copy DVDs with copyrighted material that you do not own.
 
