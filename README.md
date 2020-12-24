@@ -35,7 +35,8 @@ Tested to work on a M1 Macbook running Big Sur.
 # how to play DVDs backed up to ISOs
 
 * Linux
-  * TBD
+  * VLC Media Player can play DVDs from ISO files. If you have an older version of VLC that doesn't support that, then try to mount the ISO file as a drive and then use VLC to play the contents of the DVD.
+  * Mplayer can play DVDs from ISO files as well, although it does not support menus, subtitle options, etc., as readily as VLC.
 
 * Mac OS
   * Double-click on the ISO file so that Mac OS mounts it as a drive.
