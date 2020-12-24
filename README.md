@@ -30,11 +30,12 @@ The script signals completion by ejecting your DVD from the drive. When the DVD 
   * libdvdcss
 
 * Mac OS
-  * Homebrew (instructions at https://brew.sh/); to run on Mac with M1 ARM64 processor use the prefix ***arch -x86_64*** to invoke Rosetta2 
+  * Homebrew (instructions at https://brew.sh/); For M1 Macs use the prefix ***arch -x86_64*** to invoke Rosetta2 
   * Homebrew packages:
-    * dvdbackup
-    * cdrtools (provides mkisofs)
-    * libdvdcss
+    
+    ```
+    brew install dvdbackup cdrtools libdvdcss
+    ```
 
 Tested to work on a M1 Macbook running Big Sur.
 
