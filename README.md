@@ -14,12 +14,12 @@ Open a terminal, change to the directory where you want to store the ISO file an
 If you're on a Macbook with an M1 ARM64 processor:
 
 ```
-arch -x86_64 ./dvd2iso.sh <ISO output filename without .iso suffix>
+arch -x86_64 ./dvd2iso.sh <ISO output filename without .iso suffix, e.g., Wedding>
 ```
 
 Enter your sudo password if prompted, this will allow the script to unmount the DVD if it's already mounted.
 
-Then sit back and relax until the DVD is ejected from your drive. When it ejects, the ISO file is in the directory with the name you provided.
+Then sit back and relax until the DVD is ejected from your drive. When it ejects, the ISO file is in the directory with the name you provided (in the example above it would be *Wedding.iso*).
 
 # dependencies
 
