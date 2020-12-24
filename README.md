@@ -13,11 +13,11 @@ TBA
   1. TBD
 
 * Mac OS
-  1. Homebrew
-  2. Homebrew packages:
-    - dvdbackup
-    - cdrtools (provides mkisofs)
-    - libdvdcss
+  * Homebrew
+  * Homebrew packages:
+    * dvdbackup
+    * cdrtools (provides mkisofs)
+    * libdvdcss
 
 Tested to work on a M1 Macbook running Big Sur.
 
