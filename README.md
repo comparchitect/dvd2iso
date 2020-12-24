@@ -1,5 +1,5 @@
 # dvd2iso
-Script for backing up DVDs to ISO files on Linux or Mac.
+Script for backing up DVDs to ISO files on a Mac.
 
 NOTE: this script should only be used to back up DVDs that you own. Do not copy DVDs with copyrighted material that you do not own.
 
@@ -23,44 +23,31 @@ The script signals completion by ejecting your DVD from the drive. When the DVD 
 
 # Dependencies
 
-* Linux
-  * sudo
-  * dvdbackup
-  * cdrtools (provides mkisofs)
-  * libdvdcss
-
-* Mac OS
-  * Homebrew (instructions at https://brew.sh/)
-    * For x86 Macs
-    ```
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
-    * For M1 Macs use the prefix ***arch -x86_64*** to invoke Rosetta2
-    ```
-    arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
-  * Homebrew packages:
-    * For x86 Macs
+* Homebrew (instructions at https://brew.sh/)
+  * For x86 Macs
+  ```
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+  * For M1 Macs use the prefix ***arch -x86_64*** to invoke Rosetta2
+  ```
+  arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+* Homebrew packages:
+  * For x86 Macs
     
-    ```
-    brew install dvdbackup cdrtools libdvdcss
-    ```
-    * For M1 Macs
-    ```
-    arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
+  ```
+  brew install dvdbackup cdrtools libdvdcss
+  ```
+  * For M1 Macs
+  ```
+  arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
 
 Tested to work on a M1 Macbook running Big Sur.
 
 # How to play DVDs backed up to ISOs
-
-* Linux
-  * VLC Media Player can play DVDs from ISO files. If you have an older version of VLC that doesn't support that, then try to mount the ISO file as a drive and then use VLC to play the contents of the DVD.
-  * Mplayer can play DVDs from ISO files as well, although it does not support menus, subtitle options, etc., as readily as VLC.
-
-* Mac OS
-  * Double-click on the ISO file so that Mac OS mounts it as a drive.
-  * Run the Mac OS DVD Player. The Mac OS DVD Player should automatically start playing the DVD. If it does not start automatically, go to File->Open Media..., navigate to the VIDEO_TS folder on the mounted ISO, and select it.
+* Double-click on the ISO file so that Mac OS mounts it as a drive.
+* Run the Mac OS DVD Player. The Mac OS DVD Player should automatically start playing the DVD. If it does not start automatically, go to File->Open Media..., navigate to the VIDEO_TS folder on the mounted ISO, and select it.
 
 # Why back up your DVDs to ISOs
 The entire contents of the DVD including the menu navigation will still be usable from the ISO file. Other methods of backing up DVDs usually require you to 'transcode' the DVD videos into other formats which typically reduces their size but gives up the DVD navigation menu and potentially some audio tracks and subtitles in different languages. This method preserves the DVD in its entirety.
