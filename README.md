@@ -21,7 +21,7 @@ TBA
 
 Tested to work on a M1 Macbook running Big Sur.
 
-# how to play backed up DVDs
+# how to play DVDs backed up to ISOs
 
 * Linux
   * TBD
