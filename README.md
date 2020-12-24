@@ -40,7 +40,7 @@ The script signals completion by ejecting your DVD from the drive. When the DVD 
   ```
   * For M1 Macs
   ```
-  arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  arch -x86_64 brew install dvdbackup cdrtools libdvdcss
   ```
 
 Tested to work on a M1 Macbook running Big Sur.
