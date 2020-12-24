@@ -16,6 +16,11 @@ Mac OS
 # how to back up DVDs using the script
 
 # how to play backed up DVDs
+
+Linux
+1. TBD
+
+Mac OS
 1. Double-click on the ISO file so that Mac OS mounts it as a drive.
 2. Run the Mac OS DVD Player. The Mac OS DVD Player should automatically start playing the DVD.
 
