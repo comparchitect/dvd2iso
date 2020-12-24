@@ -15,9 +15,9 @@ Linux
 Mac OS
 1. Homebrew
 2. Homebrew packages:
-- libdvdcss
 - dvdbackup
 - cdrtools (provides mkisofs)
+- libdvdcss
 
 Tested to work on a M1 Macbook running Big Sur.
 
