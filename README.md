@@ -5,7 +5,7 @@ NOTE: this script should only be used to back up DVDs that you own. Do not copy 
 
 # How to back up DVDs using the script
 
-Make sure no applications are using the DVD drive, e.g., the Mac OS DVD Player app. Then open a terminal, change to the directory where you want to store the ISO file, and type in the following:
+Make sure no applications are using the DVD drive, e.g., the Mac OS DVD Player app is closed. Then open a terminal, change to the directory where you want to store the ISO file, and type in the following:
 
 ```
 ./dvd2iso.sh <device name> <ISO output filename without .iso suffix>
