@@ -5,7 +5,7 @@ NOTE: this script should only be used to back up DVDs that you own. Do not copy 
 
 # How to back up DVDs using the script
 
-Open a terminal, change to the directory where you want to store the ISO file and type in the following:
+Make sure no applications are using the DVD drive, e.g., the Mac OS DVD Player app is closed. Then open a terminal, change to the directory where you want to store the ISO file, and type in the following:
 
 ```
 ./dvd2iso.sh <device name> <ISO output filename without .iso suffix>
@@ -17,7 +17,7 @@ For example:
 ./dvd2iso.sh /dev/disk4 Wedding
 ```
 
-In this example, the DVD drive is /dev/disk4 and it will be saved to Wedding.iso. 
+In this example, the DVD drive is /dev/disk4 and it will be saved to Wedding.iso.
 
 If you're on a Macbook with an M1 ARM64 processor use the prefix ***arch -x86_64*** to invoke Rosetta2:
 
@@ -28,6 +28,17 @@ arch -x86_64 ./dvd2iso.sh <device name> <ISO output filename without .iso suffix
 Enter your sudo password if prompted, this will allow the script to unmount the DVD if it's already mounted.
 
 The script signals completion by ejecting your DVD from the drive. When the DVD is ejected, the ISO file is in the directory with the name you provided (in the example above it would be *Wedding.iso*).
+
+# How do I determine my DVD drive's device mapping
+
+* Insert a DVD, wait for the DVD Player to pop up.
+* Close the DVD Player app.
+* Open a terminal and type in:
+
+```
+mount
+```
+You should be able to identify the DVD drive as one of the last lines in the output.
 
 # Dependencies
 
